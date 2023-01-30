@@ -1,0 +1,10 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: javapod
+spec:
+  containers:
+    - name: c00
+      image: pradeepcoeb/23warjavakube
+      ports:
+        - containerPort: 80
